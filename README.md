@@ -43,7 +43,7 @@ twitterAccessTokenSecret | **Required:** The Twitter Access Token Secret | -
 limit | Limit the number of statuses to display | 5
 tweetTpl | Template chunk for one twitter status | `tweetTpl.html` in folder `templates`
 tweetedTpl | Template chunk displayed after successfull tweet | `tweetedTpl.html` in folder `templates`
-mode | The snippet mode (could be timeline, search, list and tweet) | timeline
+mode | The snippet mode (could be `timeline`, `search`, `list` and `tweet`) | timeline
 timeline | The displayed timeline in timeline mode* | user_timeline
 search | The search string in search mode | -
 list | The list name in list mode | -
@@ -58,7 +58,7 @@ includeRts | Include retweets | 1
 outputSeparator | Separator between two tweets | `newline`
 toPlaceholder | A placeholder name the snippet output is assigned to. Surpesses normal snippet output | -
 
-* Possible timelines: favorites, mentions_timeline, user_timeline, home_timeline, retweets_of_me
+* Possible timelines: `favorites`, `mentions_timeline`, `user_timeline`, `home_timeline`, `retweets_of_me`
 
 The Twitter Key/Token and Secrets could be globally set in system settings.
 
