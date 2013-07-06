@@ -1,0 +1,10 @@
+<li>
+	[[+retweeted_status:eq=`-`:then=`
+	<p class="status">[[+text]]</p>
+	<p class="status-info"><a href="http://twitter.com/[[+user.screen_name]]" target="_blank"><img src="[[+user.profile_image_url]]" alt="[[+user.name]] on Twitter" />[[+user.name]]</a> <span>[[+created_at:ago]]</span></p>
+	`:else=`
+	<p class="status">[[+retweeted_status.text]]</p>
+	<p class="status-info"><a href="http://twitter.com/[[+retweeted_status.user.screen_name]]" target="_blank"><img src="[[+retweeted_status.user.profile_image_url]]" alt="[[+retweeted_status.user.name]] on Twitter" />[[+retweeted_status.user.name]]</a> <span>[[+retweeted_status.created_at:ago]]</span></p>
+	<p class="status-retweeted">Retweeted by <a href="http://twitter.com/[[+user.screen_name]]" target="_blank">[[+user.name]]</a> <span>[[+created_at:ago]]</span></p>
+	`]]
+</li>
