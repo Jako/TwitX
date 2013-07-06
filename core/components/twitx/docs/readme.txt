@@ -42,6 +42,7 @@ twitterAccessTokenSecret | **Required:** The Twitter Access Token Secret | -
 limit | Limit the number of statuses to display | 5
 tweetTpl | Template chunk for one twitter status | tweetTpl.html in folder templates
 tweetedTpl | Template chunk displayed after successfull tweet | tweetedTpl.html in folder templates
+mode | The snippet mode (could be timeline, search, list and tweet)	| timeline
 timeline | The displayed timeline in timeline mode* | user_timeline
 search | The search string in search mode | -
 list | The list name in list mode | -
