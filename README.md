@@ -24,13 +24,13 @@ used later in the snippet call (or in the system settings for global use).
 Basic snippet call:
 
 ```
-[!TwitX?
+[[!TwitX?
     &twitterConsumerKey=`aaaa`
     &twitterConsumerSecret=`bbbb`
     &twitterAccessToken=`cccc`
     &twitterAccessTokenSecret=`dddd`
     &screenName=`xxxx`
-!]
+]]
 ```
 The snippet could use the following properties:
 
