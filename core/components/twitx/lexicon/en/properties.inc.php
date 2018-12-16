@@ -42,5 +42,5 @@ $_lang['prop_twitx.targetBlank'] = 'All a tags have target="_blank"';
 $_lang['prop_twitx.relNofollow'] = 'All a tags have rel="nofollow"';
 $_lang['prop_twitx.includeRts'] = 'Include retweets';
 $_lang['prop_twitx.outputSeparator'] = 'Separator between two tweets';
-$_lang['prop_twitx.toPlaceholder'] = 'A placeholder name the snippet output is assigned to. Surpesses normal snippet output';
+$_lang['prop_twitx.toPlaceholder'] = 'If set, the snippet result will be assigned to this placeholder instead of outputting it directly.';
 
